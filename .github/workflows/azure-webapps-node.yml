@@ -75,4 +75,4 @@ jobs:
       with:
         app-name: ${{ env.AZURE_WEBAPP_NAME }}
         publish-profile: ${{ secrets.AZURE_WEBAPP_PUBLISH_PROFILE }}
-        package: ${{ env.AZURE_WEBAPP_PACKAGE_PATH }}
+        package: ${{ env.AZURE_WEBAPP_PACKAGE_PATH }}[![.github/workflows/azure-webapps-node.yml](https://github.com/streetAI/SOOLO/actions/workflows/azure-webapps-node.yml/badge.svg?event=check_suite)](https://github.com/streetAI/SOOLO/actions/workflows/azure-webapps-node.yml)
